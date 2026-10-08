@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "839300346435",
+    "project_id": "smartwatch-7eb5b",
+    "storage_bucket": "smartwatch-7eb5b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839300346435:android:7838b3971a44ba4c209af6",
+        "android_client_info": {
+          "package_name": "com.example.asistente_academico"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsFc4FTEqOGsa_r9ELoqnZa8dkEFtByzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
