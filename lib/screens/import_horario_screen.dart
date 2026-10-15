@@ -76,6 +76,21 @@ class _ImportarHorarioScreenState
       // 1. Reconocer el texto y sus posiciones X/Y.
       final resultadoOcr =
           await _ocrService.reconocerHorario(imagen.path);
+          debugPrint('========== DIAGNÓSTICO OCR ==========');
+
+debugPrint(
+  'Cantidad de líneas: ${resultadoOcr.lineas.length}',
+);
+
+for (final linea in resultadoOcr.lineas) {
+  debugPrint(
+    'TEXTO: "${linea.texto}" '
+    'X: ${linea.centroX.toStringAsFixed(1)} '
+    'Y: ${linea.centroY.toStringAsFixed(1)}',
+  );
+}
+
+debugPrint('========== FIN DIAGNÓSTICO ==========');
 
       if (!mounted) return;
 
